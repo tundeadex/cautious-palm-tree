@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": "http://www.saucedemo.com",
+      "target": "es2020",
+      "lib": ["es2020", "dom"],
+      "types": ["cypress", "node"],
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      // "paths": {
+      //   "@badeball/cypress-cucumber-preprocessor/*": ["./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"]
+      // }
+    },
+    // "include": ["**/*.ts"]
+    "include": ["cypress/**/*.ts"]
+  }
