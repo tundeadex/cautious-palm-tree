@@ -21,7 +21,7 @@ export default defineConfig({
     baseUrl: "http://www.saucedemo.com",
   },
   e2e: {
-    specPattern: "cypress/e2e/features/*.feature",
+    specPattern: "cypress/e2e/**/*.feature",
     supportFile: "cypress/support/e2e.ts",
     baseUrl: "http://www.saucedemo.com",
     setupNodeEvents,

@@ -1,7 +1,5 @@
 Feature: Scenario outline test
 
-    Feature Description
-
 Scenario Outline: Login as user order and checkout
     Given I am logged as a "<user>"
     When I add the following items to my cart
